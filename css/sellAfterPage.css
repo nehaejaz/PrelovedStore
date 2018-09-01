@@ -1,0 +1,30 @@
+
+
+
+body{
+ background-image: url(marble.jpg);
+}
+
+#maincard{/*for main card div*/
+    margin:auto; /*automatically ceters the margins*/
+    margin-top: 5%;
+    background-color:rgb(255, 214, 147);
+    box-shadow: 0px 0px 4px #848484;
+}
+.cardheading{ /*for card header's headind*/
+    font-family: 'Raleway';
+    color: white;
+}
+.card-header{/*for card header*/
+    background: rgb(58, 57, 56);
+}
+#submitbutton{ /*for submit button*/
+    padding: .2em 0.5em 0.2em 0.5em;/*for customized size submit box*/
+    color: white;
+    font-size: 1.5em;
+    background-color:rgb(58, 55, 52);
+    box-shadow: 0px 0px 3px #848484;/*for shadow efect around the box*/
+}
+#submitbutton:hover,#submitbutton:focus{
+    background-color: rgb(29, 27, 25);}
+

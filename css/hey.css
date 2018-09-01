@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+  } 
+/* @media (max-width:360){
+  nav .container{
+    width: 50%;
+  }
+} */
+/* #magicCarousel {
+  height: 100vh;
+  width: 100%;
+} */
+  .nav1{
+    background-color: rgb(46, 42, 38);
+  }
+  #preloved{
+    font-family: 'Raleway', sans-serif; font-size: 30px;
+    color: #fff;
+  }
+/* ids for 1st navbar li color*/
+#licolor1,#licolor2,#licolor3{
+  color: #fff;
+}
+  .carouseltext{
+    color:white;
+    border: rgb(19, 18, 18);
+  }
+
+  
+  body {
+    background: rgb(245, 244, 243);
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  /* .firstnav{ */
+    /* background: white ; */
+  /* } */
+
+  .container {
+    max-width: 700px;
+    margin: 0 auto;
+  }
+   
+  nav ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+  }
+  
+  
+  nav li {
+    display: inline-block;
+  }
+  
+  nav a {
+    color: rgb(19, 18, 18);
+    text-decoration: none;
+    display: block;
+    padding: .75em 1.75em;
+  }
+  
+  
+  
+  nav li:hover a {
+    color: #fff;
+  }
+  
+  /*display none, only display block when hover which is defined in the next line*/
+  .menu-sub {
+    position: absolute;
+    left: 0;
+    background: #444;
+    width: 100%;
+    display: none;
+    color: rgb(228, 199, 35); /*sets the font color of menu-sub texts*/
+    padding: 1em;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 5px;
+  }
+  /*when we hover on menu-sub display block*/
+  nav li:hover .menu-sub { 
+    display: block;
+    z-index: 2;
+  }
+  /* display all the list items in menu-sub in block*/
+  .menu-sub li {
+    display: block;
+  }
+  
+  .menu-sub a {
+    padding: 0;
+    margin-bottom: .35em; /* all links in menu sub will have this padding/space */
+  }
+  
+  .menu-sub a:hover { 
+    text-decoration: underline; /*underlines the link item when u hover on it*/
+   }
+  
+  .menu-category { /*rest menu will have margin 2.5em top left,right=0 */
+    margin: 2.5em 0 .5em;
+  }
+  
+  .menu-category:first-of-type { /*only first one will have a margin-top 0 rest will have margin according to uppercode*/
+    margin-top: 0;
+  }
+  
+  .menu-col-1,
+  .menu-col-2,
+  .menu-col-3,
+  .menu-col-4 {
+    float: left;
+  }
+  
+  .menu-col-1 {
+    width: 50%; /* width of col 1*/
+  }
+  
+  .menu-col-2 {
+    width: 50%;
+  }
+  .container{display: flex; justify-content: center;} /*class of 2nd navbar menu */
+  
+     
+  /*ids for carousel text opacity*/
+  #carouseldiv1{background-color: rgba(0,0,0, 0.3);}
+  #carouseldiv2{background-color: rgba(0,0,0, 0.3);}
+  #carouseldiv3{background-color: rgba(0,0,0, 0.3);}
+  #carouseldiv4{background-color: rgba(0,0,0, 0.3);}
+
+  

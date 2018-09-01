@@ -1,0 +1,51 @@
+body{
+    background: url(login.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.signupdiv{
+    background: black;
+    opacity: 0.7;
+    height: 80px;
+    margin-top: -40px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.signupheading{
+ color: aliceblue;
+ margin-top: 12px;
+ 
+}
+.main-section{
+    
+    margin: 0;
+    margin-top:100px;
+   /*margin-left: 25px; */
+    padding-top: 0px;
+}
+.modal-content{
+    background: #E9B154;
+    opacity: 0.83;
+    padding: 0 18px;
+    box-shadow: 0px 0px 3px #848484;
+}
+.form-group{
+    margin-bottom: 30px;
+}
+.form-group input{
+    height: 45px;
+    font-size: 18px;
+    box-shadow: 0px 0px 3px #848484;
+    padding-left: 14px;
+}
+#btnforsignup{
+    height: 40px;
+    margin: 5px 0px 20px;
+    background: rgb(58, 55, 52);
+    color: rgb(235, 198, 140);
+    box-shadow: 0px 0px 3px #848484;
+}
+#btnforsignup:hover,#signup:focus{
+    background-color: rgb(29, 27, 25);
+}
