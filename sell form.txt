@@ -1,0 +1,21 @@
+Ad title input field
+category (drop down)
+-male -female -kids
+sub category (drop down)
+if male:
+-clothes - footwear -accessories 
+if female:
+-clothes - footwear -accessories
+if kids:
+-clothes - footwear -accessories -toys
+Description:
+Price:
+Size:
+Condition:
+Brand name: 
+Phone Number:
+email:
+Provience: (dropdown)
+City:
+
+select d.first_name,d.depatment_id,l.location_id, l.location_name from departments d, location l, employees e
